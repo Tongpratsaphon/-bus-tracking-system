@@ -1,0 +1,61 @@
+name: myapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.1.0  # ตรวจสอบเวอร์ชันล่าสุดบน pub.dev
+  postgres: ^3.4.2
+  http: ^1.2.2
+  google_maps_flutter: ^2.10.0
+  label_google_maps_marker: ^0.0.2
+  flutter_plugin_android_lifecycle: ^2.0.17 
+  geolocator: ^11.0.0
+  provider: ^6.1.2
+  jwt_decoder: ^2.0.1  
+  flutter_launcher_icons: ^0.13.1  # เพิ่มแพ็กเกจสำหรับไอคอน
+  image_picker: ^1.1.2
+  smooth_page_indicator: ^1.1.0
+  marquee: ^2.2.3
+  intl: ^0.18.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/image.png" # เปลี่ยนเป็น path ของไอคอนที่ต้องการ
+  adaptive_icon_foreground: "assets/mappcc.jpg"
+  adaptive_icon_background: "assets/mappcc.jpg"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  form_validator: ^2.1.1
+  flutter_launcher_icons: ^0.13.1  # เพิ่มแพ็กเกจสำหรับไอคอน
+
+
+flutter:
+  assets:
+    - .env
+    - assets/image.png
+    - assets/kmitlfight.png
+    - assets/annuce.png
+    - assets/mappcc.jpg
+    - assets/bookingicon.png
+    - assets/busicon.png
+    - assets/clockicon.png
+    - assets/hamberger.png
+    - assets/pinicon.png
+    - assets/bustrackicon.png
+    - assets/arrow.png
+    - assets/bus-6.png
+    - assets/wait.png
+    - assets/pin.png
+    - assets/location-arrow.png
+    
+  uses-material-design: true
