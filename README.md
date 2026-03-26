@@ -1,25 +1,26 @@
-# 🚍 Bus Tracking & Utility App
+# 🚍 Bus Tracking System
 
 ## 📌 Overview
 
-This project is a Flutter mobile application developed as a personal project to practice mobile development skills. The app demonstrates multi-page navigation, state management, and basic UI design.
+This project is a mobile application developed using Flutter as part of my full-stack development practice. The system is designed to simulate a real-world bus tracking application with multiple modules, including user interaction, navigation, and data handling.
 
 ---
 
 ## 🎯 Objective
 
-* To develop a multi-page mobile application using Flutter
-* To practice state management with Provider
-* To understand project structure and clean code organization
+* To develop a scalable mobile application using Flutter
+* To apply state management using Provider
+* To understand application structure and modular design
+* To prepare for full-stack system integration
 
 ---
 
 ## 👨‍💻 My Role
 
-* Developed the application using Flutter and Dart
-* Designed UI and navigation flow using BottomNavigationBar
+* Developed the mobile application using Flutter and Dart
+* Designed UI and navigation using BottomNavigationBar
 * Implemented state management using Provider
-* Organized project structure for better scalability
+* Structured the project into modular components for scalability
 
 ---
 
@@ -35,20 +36,20 @@ This project is a Flutter mobile application developed as a personal project to 
 ## 📱 Features
 
 * 🏠 Home Page
-* ⏰ Time Page
-* 🚌 Bus Status Page
-* 🔐 Login Page
-* 📍 Location Management
+* ⏰ Time Management Page
+* 🚌 Bus Tracking Interface
+* 🔐 Login System (UI)
+* 📍 Location Handling
 
 ---
 
 ## 💡 Skills Demonstrated
 
-* Flutter Development
+* Mobile Application Development (Flutter)
 * State Management (Provider)
 * UI/UX Design (Basic)
+* Application Structure & Modularity
 * Problem Solving
-* Code Structuring
 
 ---
 
@@ -68,23 +69,18 @@ lib/
 
 ## 🚀 Getting Started
 
-1. Install dependencies
-
-```
+```bash
 flutter pub get
+flutter run
 ```
 
-2. Create `.env` file
+Create `.env` file:
 
 ```
 API_KEY=your_api_key_here
 ```
 
-3. Run the project
-
-```
-flutter run
-```
+---
 
 ## 📊 Project Type
 
@@ -95,10 +91,10 @@ flutter run
 
 ## 🔮 Future Improvements
 
-* Connect with real backend API
+* Integrate with backend API (Node.js / Firebase)
+* Implement real-time tracking system
+* Add authentication system with database
 * Improve UI/UX design
-* Add real-time tracking
-* Enhance authentication system
 
 ---
 
