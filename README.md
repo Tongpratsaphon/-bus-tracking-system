@@ -43,9 +43,6 @@ The system transforms raw location and user data into actionable insights to sup
 
 ## 🖼️ System Screenshots
 
-### 📍 Bus Tracking
-![Tracking](assets/tracking.png)
-
 ### 📊 Dashboard
 ![Dashboard](assets/dashboard.png)
 
