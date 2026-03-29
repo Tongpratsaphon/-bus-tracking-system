@@ -50,5 +50,3 @@ The system transforms raw location and user data into actionable insights to sup
 ![Seat](assets/seat.png)
 
 ---
-
-## 📂 Project Structure
